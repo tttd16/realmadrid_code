@@ -1,0 +1,242 @@
+@import 'normalize.css';
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700&display=swap');
+
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+// --------------------------------------------------------HOME PAGE
+.homepage {
+  background-color: #fff !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// -----------------------------------------------------------NEW------------------
+.new__title:hover {
+  color: #0255a5;
+}
+
+//-----------------------------------------New3
+.wrapper__content {
+  max-width: 945px;
+}
+
+// --------------------------------------------------------NAV Bar Header-------------
+.navbar {
+  background-color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+// .active-link {
+//   background-color: #0255a5 !important;
+// }
+
+.navbar .nav-title {
+  color: #0255a5 !important;
+  font-weight: 700 !important;
+  transition: color 1s, transform 1s;
+}
+
+.navbar .nav-title:hover {
+  color: red !important;
+}
+
+.nav-title-signin {
+  color: #0255a5 !important;
+  font-weight: 700 !important;
+  transition: color 1s, transform 1s;
+}
+
+.nav-title-signin:hover {
+  color: red !important;
+  background-color: #fff;
+}
+
+// ---------------------------------------------SECtION Champion----------------------------------
+.championpage {
+  background-color: #fff !important;
+}
+
+.under__champion {
+  position: relative;
+}
+
+
+
+.champion-image {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.image-1 {
+  margin-bottom: 60px;
+}
+
+.image-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image-3 {
+  margin-top: 60px;
+}
+
+// ----------------------------------------------CALENDAR------------------
+.container-calendar {
+  background-color: #f4f4f4;
+}
+
+.under__title {
+  position: relative;
+}
+
+.under__title::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  width: 3rem;
+  height: 0.13rem;
+  background-color: #777777;
+}
+
+// ---------------------------------------------Players---------
+.card-player:hover > img {
+  content: '';
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 4;
+}
+
+.card-player > img {
+  border: 10px solid;
+  border-color: #fff;
+}
+
+// -----------------------------SPECIALS---------------------------------
+.container-specials {
+  background-color: #0255a5;
+}
+
+.specials-img {
+  border: 10px solid;
+  border-color: #fff;
+}
+
+// --------------------------Trophies-----------------------
+.container-trophies {
+  background-color: #fff;
+}
+
+// ---------------------------FOOTER--------------------
+.footer__1 {
+  background-color: #f4f4f4;
+  color: #000;
+  font-weight: normal;
+}
+
+.row__footer {
+  width: 50vw;
+  display: -webkit-inline-box;
+}
+
+.footer__2 {
+  background-color: #fff;
+}
+
+.footer__icon {
+  font-size: 30;
+}
+
+// ----------------------LOGIN PAGE --------------
+// ------------------LOGIN --------------
+// .signin__page {
+//  background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("https://www.realmadrid.com/img/cc_1280px/mundial_20221125_20221125042512.jpg");
+//  background-size: cover;
+//  background-attachment: fixed;
+//  margin: 0;
+//  padding: 0;
+// }
+
+.container__login {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('https://cdnimg.vietnamplus.vn/t1200/Uploaded/mzdic/2022_05_29/real-madrid-champions-league-1.jpg');
+  height: 100vh;
+}
+
+.register:hover {
+  cursor: pointer;
+  color: #0255a5 !important;
+}
+
+.forgot__password {
+  text-decoration-line: underline;
+}
+
+.forgot__password:hover {
+  cursor: pointer;
+  color: #0255a5 !important;
+}
+
+.form__login {
+  width: 100%;
+}
+
+.form__input:hover {
+  border: #000;
+}
+
+//////////////////////////////////////   TICKETPAGE
+.ticket__time {
+  border-right: 1px solid #a5a5a5;
+  margin-right: 12px;
+  padding-right: 12px;
+}
+
+// .right__line {
+//   position: relative;
+// }
+
+// .right__line::after {
+//   position: absolute;
+//   right: 0;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   content: '';
+//   width: 3rem;
+//   height: 0.13rem;
+//   background-color: #777777;
+// }
+
+// ------------------------------RESPONSIVE
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
