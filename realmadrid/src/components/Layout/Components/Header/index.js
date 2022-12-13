@@ -2,21 +2,12 @@ import React from 'react';
 import { Navbar, Nav, Container, Image, Card, Dropdown, Button } from 'react-bootstrap';
 
 import HeaderLogo from './header_logo.svg';
-import { useAuth, useValue } from '~/context/UserAuthContext';
+import { useValue } from '~/context/UserAuthContext';
 
 import UserIcon from '~/components/user/UserIcon';
 
 
 const Header = () => {
-  // const { logout, currentUser } = useAuth();
-  // const navigate = useNavigate();
-  // const userLogout = async () => {
-  //   try {
-  //     await logout();
-  //     alert('You are logged out');
-  //     navigate('/signin');
-  //   } catch (error) {}
-  // };
 
   const {
     state: { currentUser },

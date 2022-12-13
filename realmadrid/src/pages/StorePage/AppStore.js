@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import Checkout from './Checkout';
+// import Checkout from './Checkout';
 import CreateContainer from './CreateContainer';
 import Header from './Header';
 import MainContainer from './MainContainer';

@@ -1,4 +1,4 @@
-import { HeaderFooterOnly, DefaultLayout } from '~/components/Layout';
+import { HeaderFooterOnly } from '~/components/Layout';
 import HomePage from '~/pages/HomePage';
 import TicketsPage from '~/pages/TicketsPage';
 import VipPage from '~/pages/VipPage';

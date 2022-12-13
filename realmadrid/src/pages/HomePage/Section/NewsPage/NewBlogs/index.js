@@ -46,4 +46,4 @@ const NewBlogs = () => {
   );
 };
 
-export default NewBlogs;
+// export default NewBlogs;

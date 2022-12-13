@@ -1,4 +1,3 @@
-import { Radio } from '@chakra-ui/react';
 import React from 'react';
 import { Card, Row, Col, Container, Image, Button } from 'react-bootstrap';
 

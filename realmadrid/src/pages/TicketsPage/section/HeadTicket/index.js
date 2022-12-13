@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Image, Button } from 'react-bootstrap';
+import { Card, Col, Image, Button } from 'react-bootstrap';
 
 import BACKGROUND from '~/assets/imgs/tickets/fondoEntradasFutbol.jpg';
 
